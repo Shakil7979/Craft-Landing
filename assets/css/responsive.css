@@ -1,0 +1,116 @@
+
+
+@media all and (min-width: 767px){
+	.menu ul{
+		display: flex !important;
+	}
+}
+
+@media all and (max-width: 767px){
+	.menu ul{
+		flex-direction: column; 
+		display: none; 
+	}
+	.logo img {
+		width: 50%; 
+	}
+	.logo {
+		width: 100%; 
+		display: flex;
+		justify-content: space-between;
+	}
+	.nav-icon{
+		display: block;
+	}
+	.banner-area .row {
+		flex-direction: column-reverse;
+	}
+	.banner-left h1 {
+		font-size: 4rem; 
+	}
+	.section-padding {
+		padding: 3rem 0;
+	}
+	.section-title h2 {
+		font-size: 4rem; 
+	}
+	.photo-item, .hero-item {
+		width: 60%;  
+	}
+	.photo-translete {
+		transform: rotate(-4deg) translateX(20%);
+	}
+	.play { 
+		padding: 14rem 0;
+	}
+	.footer-item {
+		margin-bottom: 3rem;
+	}
+	.start-btn i {
+		font-size: 2.5rem;
+	}
+	.banner-img img {
+		width: 83%; 
+	}
+	.craft-title p { 
+		max-width: 94%; 
+	}
+	.banner-left {
+		padding: 0rem 0 5rem 0;
+	}
+	.section-title p {
+		max-width: 67%;
+	}
+	.case-left p { 
+		max-width: 91%;
+	}
+	.start-title {  
+		margin-bottom: 0rem;
+	}
+}
+
+
+
+
+@media all and (max-width: 576px){
+	.banner-left {
+		padding: 0rem 0 5rem 0;
+	}
+	.banner-left h1 {
+		font-size: 3rem;
+	}
+	.craft-title p { 
+		max-width: 100%; 
+	}
+	.section-title h2 {
+		font-size: 3rem;
+	}
+	.section-title p {
+		max-width: 90%;
+	}
+	.photo-translete, .hero-translete { 
+		margin-top: 3rem;
+	}
+	.case-left p { 
+		max-width: 100%;
+	}
+	.play {
+		padding: 6rem 0;
+	}
+	.play i {
+		font-size: 3rem; 
+	}
+	.start-title h1 {
+		font-size: 2.5rem; 
+	}
+	.start-btn { 
+		flex-direction: column;
+	}
+	.start-btn a { 
+		margin-bottom: 1rem;
+		margin-left: 0 !important;
+	}
+	.start-title { 
+		margin-bottom: 0rem;
+	}
+}

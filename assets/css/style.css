@@ -1,0 +1,339 @@
+ 
+   /*********************************/
+  /***********1.GLOBAL CSS*********/
+ /********************************/
+ 
+body {
+    position: relative;
+    margin: 0; 
+    padding: 0; 
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background: #F6F6F9;
+}
+html {
+    font-size: 62.5%;
+    line-height: 25px;
+    line-height: 2.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+p{
+  font-size: 1.4rem;
+  color: #7A7490;
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+h3 {
+  color: #7A7490;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+.btn-1 {
+  color: #F6F6F9;
+  font-size: 1.4rem;
+  padding: 1.5rem 2rem;
+  background-image: linear-gradient(to top left, #D772FB, #9672FB);
+  border-radius: 3rem;
+  transition: 0.3s;
+}
+.btn-1:hover{
+  color: #000;
+  background-image: linear-gradient(to left top, #D772FB, #9672FB);
+}
+.section-padding{
+  padding: 6rem 0;
+}
+.section-title h2 {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #9672FB;
+  margin: 1rem 0 2rem 0;
+}
+.section-title p {
+  max-width: 36%;
+}
+
+   /*********************************/
+  /***********2.HEADER CSS**********/
+ /********************************/
+
+ .header-area {
+  background: #F6F6F9;
+  padding: 1rem 0;
+}
+.logo {
+  width: 50%;
+  height: auto;
+}
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+.nav-icon {
+  display: none;
+}
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menu ul li {
+  margin-left: 1rem;
+}
+.menu ul li a {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  color: #A19DAF;
+  text-transform: capitalize;
+  transition: 0.3s;
+  font-weight: 500;
+}
+.menu ul li a:hover {
+  color: #000;
+}
+.menu ul li a img {
+  width: 40%;
+  height: auto;
+}
+
+
+ 
+   /*********************************/
+  /***********3.BANNER CSS**********/
+ /********************************/
+ 
+
+ 
+.banner-left h1 {
+  font-size: 5rem;
+  font-weight: 600;
+}
+.banner-left h1 span {
+  color: #9672FB;
+}
+.banner-left a {
+  margin-top: 3rem;
+}
+.banner-left {
+  padding: 12rem 0 5rem 0;
+}
+.banner-img {
+  width: 100%;
+  height: auto;
+}
+.banner-img img {
+  width: 100%;
+  height: 100%;
+  transform: translateY(-5%);
+}
+
+
+
+   /*********************************/
+  /***********4.HEADER CSS**********/
+ /********************************/
+ 
+
+.craft-title {
+  text-align: center;
+}
+.craft-title p {
+  color: #7A7490;
+  max-width: 54%;
+  margin: 2rem auto;
+}
+.craft {
+  width: 100%;
+  height: auto;
+}
+.craft img{
+  width: 100%;
+  height: 100%;
+}
+
+
+   /*********************************/
+  /***********5.CRAFT CSS**********/
+ /********************************/
+ 
+.photo-item,
+.hero-item {
+  width: 100%;
+  height: auto;
+}
+
+.photo-item img,
+.hero-item img{
+  width: 100%;
+  height: 100%; 
+}
+
+.photo-translete ,
+.hero-translete {
+  transform: rotate(-4deg) translateX(20%);
+}
+
+
+   /*********************************/
+  /***********6.PHOTO CSS**********/
+ /********************************/
+
+.photo-translete{
+  transform: rotate(-4deg) translateX(-15%);
+}
+
+
+   /*********************************/
+  /***********7.CASE CSS**********/
+ /********************************/
+
+
+.case-img{
+  width: 100%;
+  height: auto;
+}
+.case-img img{
+  width: 100%;
+  height: auto;
+}
+.case-left p {
+  margin: 2rem 0;
+  max-width: 67%;
+}
+
+
+
+   /*********************************/
+  /***********8.PLAY CSS**********/
+ /********************************/
+
+
+ .play-area{
+  background: url('../images/play/1.png') no-repeat scroll center center / 100% 100%;
+ }
+ .play {
+  text-align: center;
+  padding: 30rem 0;
+}
+.play i {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  transition: 0.3s;
+} 
+.play h3 { 
+  color: #F6F6F9;
+}
+
+
+
+   /*********************************/
+  /***********9.START CSS**********/
+ /********************************/
+
+
+.start-title {
+  text-align: center;
+  margin-bottom: 14rem;
+}
+.start-title h1 {
+  font-size: 4.5rem; 
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.start-btn {
+  display: flex;
+  justify-content: center;
+}
+.start-btn a {
+  display: flex;
+  align-items: center; 
+}
+.start-btn ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.text-color { 
+  font-size: 1.4rem;
+} 
+.start-btn i {
+  font-size: 3.5rem;
+}
+.start {
+  width: 100%;
+  height: auto;
+}
+.start img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+   /*********************************/
+  /***********10.FOOTER CSS**********/
+ /********************************/
+
+
+
+.footer-logo {
+  width: 100%;
+  height: auto;
+}
+.footer-logo  img{
+  width: 50%;
+  height: auto;
+}
+.footer-social {
+  display: flex; 
+  margin-top: 2rem;
+}
+.footer-social li {
+  margin-right: 2rem;
+}
+.footer-social li a i {
+  font-size: 2rem;
+  color: #2F2651;
+  transition: 0.3s;
+}
+.footer-social li a:hover i { 
+  color: #7A7490;
+}
+.footer-item h3 {
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+.footer-item ul li a {
+  font-size: 1.4rem;
+  color: #7A7490;
+  transition: 0.3s;
+}
+.footer-item ul li a:hover{
+  color: #000;
+}
+.footer-item ul li {
+  margin-bottom: 0.3rem;
+}
